@@ -1,0 +1,23 @@
+{
+  "name": "OneSignalNotificationServiceExtension",
+  "info": "Info.plist",
+  "entitlements": "OneSignalNotificationServiceExtension.entitlements",
+  "headers": [
+    "NotificationService.h"
+  ],
+  "source_files": [
+    "NotificationService.m"
+  ],
+  "resources": [
+      
+  ],
+  "system_frameworks": [
+
+  ],
+  "dependencies": [
+    {
+        "name": "OneSignal",
+        "requirement": "~> 3.12"
+    }
+  ]
+}
