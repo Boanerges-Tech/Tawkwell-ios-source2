@@ -1,0 +1,46 @@
+PODS:
+  - GoNativeCore (1.6.22):
+    - GoNativeCore/Binary (= 1.6.22)
+  - GoNativeCore/Binary (1.6.22)
+  - MedianIcons (1.0.7)
+  - OneSignal (3.12.7):
+    - OneSignal/OneSignalCore (= 3.12.7)
+    - OneSignal/OneSignalExtension (= 3.12.7)
+    - OneSignal/OneSignalOutcomes (= 3.12.7)
+  - OneSignal/OneSignalCore (3.12.7)
+  - OneSignal/OneSignalExtension (3.12.7):
+    - OneSignal/OneSignalCore
+    - OneSignal/OneSignalOutcomes
+  - OneSignal/OneSignalOutcomes (3.12.7):
+    - OneSignal/OneSignalCore
+  - OneSignalPlugin/Binary (0.2.11):
+    - GoNativeCore
+    - OneSignal (~> 3)
+  - zipzap (8.1.1)
+
+DEPENDENCIES:
+  - GoNativeCore
+  - MedianIcons
+  - OneSignal (~> 3.12)
+  - OneSignalPlugin/Binary
+  - zipzap
+
+SPEC REPOS:
+  "git@github.com:gonativeio/gonative-specs.git":
+    - GoNativeCore
+    - MedianIcons
+    - OneSignalPlugin
+  trunk:
+    - OneSignal
+    - zipzap
+
+SPEC CHECKSUMS:
+  GoNativeCore: 0c4626960b4b3fa95b5cdbc78e095e3d564ed31b
+  MedianIcons: 1e912a04220beb11284230decd10755c8a6e62d1
+  OneSignal: 65c17edb3d9d26e355249f97340c1386d87e168c
+  OneSignalPlugin: 07717882d850f9e855f514aecc3ba159637e9514
+  zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
+
+PODFILE CHECKSUM: f65c5f78336707d14e2e3368d69a7e0add863611
+
+COCOAPODS: 1.14.3
