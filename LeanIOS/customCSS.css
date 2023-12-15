@@ -1,0 +1,4 @@
+/* Add this CSS rule to hide the footer */
+#footer {
+  display: none;
+}
